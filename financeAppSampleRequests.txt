@@ -1,0 +1,36 @@
+
+
+http://192.168.100.2:7001/LoginRegistrationAdapter/CustomerLogin_Registration
+{
+    "service":"registration",
+     "FirstName":"Rogers",
+     "LastName":"Munene",
+    "phoneNumber":"254712622099",
+     "NationalID":"28750692",
+     "pin":"Munene" ,
+     "uuid":"12244"       
+     
+}
+http://192.168.100.2:7001/BalanceInquiryAdapter/BI
+{
+    "service":"BI",
+    "phoneNumber":"254712622099"    
+     
+}
+{
+    "service":"login",
+    "phoneNumber":"254712622099",
+     "pin":"123451" ,
+     "uuid":"12244" 
+         
+     
+}
+http://192.168.100.2:7001/FundsTransferAdapter/FT
+{
+    "service":"FT",
+    "phoneNumber":"254712622099",
+     "RecepientNo":"2547191781251",
+     "Amount":"100" ,
+     "uuid":"12244"       
+     
+}
